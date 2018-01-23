@@ -5,7 +5,7 @@ jobs:
       - image: circleci/golang:1.8.1
     steps:
       - checkout
-      - run: "master"
+      - run: echo "master"
   test:
     docker:
       - image: circleci/golang:1.8.1
