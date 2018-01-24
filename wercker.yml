@@ -30,8 +30,7 @@ build:
     - script:
         name: go get
         code: |
-          go get
-
+          go get github.com/qinzhao168/cicleCI
     # Build the project
     - script:
         name: go build
@@ -42,4 +41,4 @@ build:
     - script:
         name: go test
         code: |
-          go test ./...
+          go get github.com/qinzhao168/cicleCI
